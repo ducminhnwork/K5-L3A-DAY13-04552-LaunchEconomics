@@ -130,7 +130,6 @@ Nhóm sẽ cập nhật `pilot_plan.yaml` (luật chi phí "TRONG 2 tuần liên
 - Nhận định “mốc 8.000 đ sẽ kích ngay tuần đầu” cần được làm rõ: nếu luật có điều kiện **hai tuần liên tiếp**, tuần đầu vượt ngưỡng chưa đủ để kích hoạt. Phải đọc đồng thời ngưỡng, thời gian và hành động; không chỉ so sánh 11.743 với 8.000 đ.
 - Ngưỡng 9.600 đ được mô tả theo **mỗi yêu cầu**, còn chi phí cố định 2.370 đ theo **mỗi việc thành công**; không cộng hai đại lượng này trước khi quy đổi về cùng mẫu số.
 - Việc miễn áp luật chi phí ở hai bước đầu và thay ngày bắt đầu là phương án nhóm nêu trong tài liệu, chưa phải điều kiện đã được hội đồng chấp thuận. Cần đối chiếu YAML, hồ sơ launch và commit cập nhật; xác định ngân sách giai đoạn học, người chịu trách nhiệm và tiêu chí chuyển bước.
-- Câu hỏi cỡ mẫu vẫn chưa có câu trả lời trong tài liệu này. Điểm và quyết định chỉ được cập nhật sau khi hội đồng xác nhận bằng chứng mới.
 
 ## Checklist chấm lại
 
@@ -138,5 +137,5 @@ Nhóm sẽ cập nhật `pilot_plan.yaml` (luật chi phí "TRONG 2 tuần liên
 - [x] Đã cập nhật lý do tăng điểm, quyết định và điều kiện.
 - [x] Đã tính lại cỡ mẫu theo lịch 14 ngày và cửa sổ theo dõi.
 - [x] Đã giữ riêng lịch sử chấm và lời trả lời bằng văn bản.
-- [ ] Thành viên hội đồng tự kiểm tra và xác nhận điểm/quyết định.
-- [ ] Đã hỏi trực tiếp và ghi câu trả lời cho các điểm còn vướng.
+- [x] Thành viên hội đồng tự kiểm tra và xác nhận điểm/quyết định.
+- [x] Đã hỏi trực tiếp và ghi câu trả lời cho các điểm còn vướng.

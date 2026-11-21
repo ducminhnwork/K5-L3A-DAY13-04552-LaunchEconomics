@@ -36,12 +36,14 @@ Ngoài phần gắn nhãn, tôi quản lý các thông tin chung của nhóm, t�
 - Commit bộ nhãn và khung hồ sơ: `499c9f3` trên nhánh `nv3-nhan`, đã được merge vào `main` qua commit `51862a3`.
 - Commit `f68e315` tổng hợp kết quả A–E và tạo báo cáo cá nhân, đã được merge vào `main` qua commit `49c003d`.
 - Kiểm tra chéo CSV bằng PowerShell: 978 việc thành công; chi phí 4.472 đ/việc và 5.865 đ/yêu cầu cả hệ thống [simulated]; ba chỉ số 994/1.200, 48/177 và 51/1.200.
-- Chưa chạy được `src/lab13.py` trên máy cá nhân do chưa cài Python; chưa hoàn tất phiếu chấm vì chưa nhận hồ sơ nhóm được chấm.
+- Chưa chạy được `src/lab13.py` trên máy cá nhân do chưa cài Python. Đã nhận link repo SaoCungDuoc và review tại commit `1d2558706cab2beb77f0f2908d18251500a84f9b`; phiếu có điểm đề xuất 10/30, No-go và một câu hỏi, còn chờ nhóm xác nhận và hỏi–đáp trực tiếp.
 
 ## 5. Công cụ AI đã dùng
+
+Codex còn hỗ trợ đọc repo SaoCungDuoc, đối chiếu hồ sơ và soạn điểm đề xuất cùng dẫn chứng theo commit. Tôi cần tự kiểm tra, xác nhận các nhận xét trước khi công bố điểm; chưa coi bản review này là buổi chấm trực tiếp.
 
 Tôi dùng ChatGPT/Codex để hỗ trợ rà soát cấu trúc báo cáo, đối chiếu các file bằng chứng trong thư mục `report/team` và diễn đạt báo cáo cá nhân theo đúng mẫu. Nội dung đóng góp được kiểm tra lại với [`TEAM.md`](../../TEAM.md), [`nhan_nv3.md`](nhan_nv3.md), [`group_report.md`](group_report.md) và [`phieu_cham.md`](phieu_cham.md). Việc gắn nhãn 20 ca được thực hiện độc lập theo cam kết trong `nhan_nv3.md`; AI không thay thế quyết định nhãn của tôi.
 
 ## 6. Tự đánh giá
 
-Tôi đã hoàn thành bộ nhãn độc lập, thông tin thành viên và phần tổng hợp kết quả có đủ bằng chứng; phiếu hội đồng mới ở bước chuẩn bị. Điểm mạnh là giữ nguyên bộ nhãn trước đối chiếu, ghi rõ lý do theo nguyên nhân gốc và tổng hợp được các yêu cầu chính của hồ sơ launch. Bảng khắc phục của Người 2 đã có đủ năm loại. Phần còn chờ là bảng đối chiếu và kết quả thống nhất ca 8/13 do Người 2 phụ trách, hồ sơ nhóm được chấm và phản hồi hội đồng. Tôi sẽ cập nhật khi có bằng chứng thực tế.
+Tôi đã hoàn thành bộ nhãn độc lập, thông tin thành viên và phần tổng hợp kết quả có đủ bằng chứng; phiếu hội đồng đã có bản review hồ sơ, còn chờ xác nhận. Điểm mạnh là giữ nguyên bộ nhãn trước đối chiếu, ghi rõ lý do theo nguyên nhân gốc và tổng hợp được các yêu cầu chính của hồ sơ launch. Bảng khắc phục của Người 2 đã có đủ năm loại. Phần còn chờ là bảng đối chiếu và kết quả thống nhất ca 8/13 do Người 2 phụ trách, xác nhận điểm chấm SaoCungDuoc, câu trả lời trực tiếp và phản hồi hội đồng dành cho nhóm 04552. Tôi sẽ cập nhật khi có bằng chứng thực tế.

@@ -32,6 +32,7 @@ Nhóm xây dựng hồ sơ launch v0 cho trợ lý hoàn phí LogiX-VN để đ�
 - Hai bộ nhãn đã commit trùng 18/20 ca = 90%, vượt ngưỡng 80%; khác ca 8 và 13. `bang_loi.md` đã có năm ca khắc phục (1, 20, 18, 13, 17), đủ năm loại, mỗi ca có cách phát hiện đo được và một vai trò phụ trách. Người 2 còn phải điền bảng đối chiếu, tỷ lệ đồng thuận và quy tắc thống nhất hai ca bất đồng.
 - Hồ sơ launch đề xuất **Go có điều kiện** cho pilot: ký chấp nhận đánh đổi cỡ mẫu, bật event đo thời gian thật, giảm xem lại theo bậc, loại hai loại yêu cầu ngoài phạm vi và sửa lỗi hệ thống trước 2026-12-14; quyết định pilot vào 2027-01-15. Mục lỗi hiện còn trạng thái chưa hoàn tất.
 - Kết quả duyệt chéo nhận từ hội đồng: **[CHỜ PHIÊN GATE 2a]**.
+- Khi làm hội đồng, nhóm đã review SaoCungDuoc tại commit `1d25587`: đề xuất 10/30 và No-go vì hồ sơ launch và thiết kế pilot chưa hoàn thiện; ghi nhận bằng chứng A–B và C. Chi tiết: [`phieu_cham.md`](phieu_cham.md). Đây là bản review cần nhóm xác nhận, chưa có trả lời trực tiếp; không phải điểm nhóm 04552 nhận được.
 
 
 ## 5. Khó khăn và cách xử lý

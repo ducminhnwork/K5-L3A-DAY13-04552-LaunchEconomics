@@ -150,4 +150,4 @@ Nhóm sẽ cập nhật `pilot_plan.yaml` (luật chi phí "TRONG 2 tuần liên
 - [x] Đã giữ riêng lịch sử chấm và lời trả lời bằng văn bản.
 - [x] Thành viên hội đồng tự kiểm tra và xác nhận điểm/quyết định.
 - [x] Đã hỏi trực tiếp và ghi câu trả lời cho các điểm còn vướng.
-- [ ] Thành viên xác nhận riêng điểm đề xuất 30/30 của lần chấm tại `d8a7723`.
+- [x] Thành viên xác nhận riêng điểm đề xuất 30/30 của lần chấm tại `d8a7723`.

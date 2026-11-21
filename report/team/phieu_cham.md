@@ -31,11 +31,58 @@ Bảng A–B và bảng lỗi đã có nội dung đáng ghi nhận, nhưng chư
 4. Điền 3 chỉ số tính thử, thêm chỉ số dùng và an toàn, ít nhất 6 event có `trace_id`, ít nhất 2 rủi ro kinh tế trong [chi_so.md](https://github.com/VictorUIT/K5-L3A-DAY13-SaoCungDuoc-LaunchEconomics/blob/1d2558706cab2beb77f0f2908d18251500a84f9b/report/team/chi_so.md).
 5. Nhóm được chấm tự chỉ định người phụ trách và hạn xử lý các việc trên; gửi commit mới để hội đồng đánh giá lại.
 
-## Một câu hỏi cho đội trình
+## Câu hỏi về cỡ mẫu cho đội trình
 
-**B4 cho thấy xem lại 100% tốn 11.743–12.415 đ/việc [simulated], trong khi pilot còn trống cỡ mẫu và luật dừng. Nhóm sẽ chọn No-go hay Go có điều kiện, và cần hoàn tất những bằng chứng, ngưỡng dừng nào trước khi bắt đầu pilot?**
+**Bước 0.50 kéo dài 1 tuần (khoảng 2026-12-28 đến 2027-01-03). Với khoảng 1.500 × 82% ÷ 40 ≈ 30,7 yêu cầu trong phạm vi mỗi nhân viên mỗi ngày, mỗi người chỉ có khoảng 215 yêu cầu, ít hơn 299 mà D1 câu e yêu cầu. Nhóm đo chỉ số chính trong bao nhiêu ngày để đủ 859 hiệu dụng mỗi nhóm, mà vẫn chừa đủ 7 ngày theo dõi mở lại trước ngày quyết định 2027-01-15?**
 
-**Câu trả lời của đội trình:** Chưa có; ghi lại sau phiên hỏi–đáp thực tế. Nội dung trong repo không được xem là câu trả lời trực tiếp.
+**Câu trả lời của đội trình về cỡ mẫu:** Chưa có. Tài liệu trả lời được cung cấp dưới đây nói về chi phí xem lại, không trả lời câu hỏi cỡ mẫu này.
+
+## Hỏi–đáp bổ sung về chi phí xem lại 100%
+
+**Nguồn ghi nhận:** Tài liệu `tra_loi_hoi_dong.md` do thành viên nhóm 04552 cung cấp, tiêu đề tài liệu ghi “Nhóm SaoCungDuoc (L3A)”. Đây là câu trả lời bằng văn bản được cung cấp, chưa xác nhận đã trao đổi trực tiếp. Nội dung này không trả lời câu hỏi cỡ mẫu ở trên.
+
+**Câu hỏi:** Nếu tuần đầu phải xem lại 100%, chi phí mỗi việc thành công là bao nhiêu, và luật dừng chi phí 8.000 đ trong `pilot_plan.yaml` có tự kích hoạt ngay không?
+
+**Câu trả lời theo tài liệu được cung cấp:**
+
+### 1. Chi phí khi xem lại 100%
+
+Phạm vi pilot noi_dia + hang_nang (982 yêu cầu, 900 việc thành công), theo B4 trong `bang_chi_phi.md` [simulated]:
+
+- Xem lại: 948 yêu cầu × 5 phút × 2.000 đ = 9.480.000 đ
+- Token + tool của mọi lần chạy: 224.513 đ
+- Làm lại: 48 ca × phút làm lại × 2.000 đ
+
+| Phút làm lại mỗi ca | Chi phí mỗi việc thành công | Chi phí cả hệ thống mỗi yêu cầu (cộng 82 ca không thành công × 12.000 đ) |
+| --- | ---: | ---: |
+| 9 phút (theo đề) | 10.568.513 ÷ 900 = **11.743 đ = 0,98×** | 11.764 đ = 0,98× |
+| 15,3 phút (trung bình trong dữ liệu) | 11.173.313 ÷ 900 = **12.415 đ = 1,03×** | 12.380 đ = 1,03× |
+
+Xem lại 100% thì trợ lý gần như không tiết kiệm được so với nhân viên tự làm (12.000 đ) [simulated].
+
+### 2. Luật dừng chi phí có tự kích hoạt không
+
+- **Mốc 8.000 đ/việc thành công** (hướng dẫn mẫu): có, sẽ kích ngay tuần đầu vì 11.743 đ > 8.000 đ. Vì vậy `pilot_plan.yaml` của nhóm **không dùng mốc này**.
+- **Luật nhóm đang dùng:** NẾU chi phí biến đổi cả hệ thống mỗi yêu cầu > **9.600 đ** (= 0,8 × 12.000 đ, chừa 2.370 đ cố định mỗi việc khi khối lượng còn một nửa, A4) TRONG **2 tuần liên tiếp** THÌ PM trợ lý hoàn phí giảm xem lại theo bậc, thu hẹp về noi_dia và giới hạn 2 lần chạy.
+  - Tuần đầu: **không kích**, vì luật cần 2 tuần liên tiếp.
+  - Hết tuần 2 (20/12, bước 0.25): **có kích** nếu vẫn xem lại 100% (11.764 đ > 9.600 đ). Mốc kiểm tra "giảm xem lại theo bậc" trong hồ sơ là 21/12, muộn hơn một ngày. Luật có thể thu hẹp pilot về noi_dia trước khi kế hoạch giảm xem lại kịp áp dụng. Nhóm thừa nhận đây là điểm chưa khớp.
+
+### 3. Cách xử lý
+
+1. Bước 0.10 và 0.25 (07/12–20/12): chi phí khi xem lại 100% đã biết trước (0,98–1,03× [simulated]); chỉ theo dõi, không áp luật dừng chi phí.
+2. Luật 9.600 đ tính **từ bước 0.50 (21/12)**. Trước mốc này, tỉ lệ xem lại phải đã giảm theo bậc khi tỉ lệ sửa + bỏ < 15% trong 1 tuần (đợt chạy thử: 21,1% trong phạm vi, 27/128).
+3. Mục tiêu thời gian: mỗi lần xem lại ≤ 5,1 phút (làm lại 9 phút) hoặc ≤ 4,8 phút (làm lại 15,3 phút) để hoà vốn; đo phút thật bằng event `staff_review_decision` từ tuần 1, thay số simulated.
+4. Luật an toàn (mở lại 7 ngày) vẫn áp dụng ngay từ tuần đầu, không thay đổi.
+
+Nhóm sẽ cập nhật `pilot_plan.yaml` (luật chi phí "TRONG 2 tuần liên tiếp kể từ bước 0.50") và điều kiện tương ứng trong `ho_so_launch_v0.md`.
+
+### Ghi chú đối chiếu của hội đồng
+
+- Phần trả lời mô tả một kế hoạch mới dùng ngưỡng 9.600 đ và bắt đầu bước 0.50 ngày 21/12; chưa cung cấp commit chứa kế hoạch đó. Không dùng nội dung này để tự thay đổi kết quả chấm tại commit `1d2558706cab2beb77f0f2908d18251500a84f9b`.
+- Nhận định “mốc 8.000 đ sẽ kích ngay tuần đầu” cần được làm rõ: nếu luật có điều kiện **hai tuần liên tiếp**, tuần đầu vượt ngưỡng chưa đủ để kích hoạt. Phải đọc đồng thời ngưỡng, thời gian và hành động; không chỉ so sánh 11.743 với 8.000 đ.
+- Ngưỡng 9.600 đ được mô tả theo **mỗi yêu cầu**, còn chi phí cố định 2.370 đ theo **mỗi việc thành công**; không cộng hai đại lượng này trước khi quy đổi về cùng mẫu số.
+- Việc miễn áp luật chi phí ở hai bước đầu và thay ngày bắt đầu là phương án nhóm nêu trong tài liệu, chưa phải điều kiện đã được hội đồng chấp thuận. Cần đối chiếu YAML, hồ sơ launch và commit cập nhật; xác định ngân sách giai đoạn học, người chịu trách nhiệm và tiêu chí chuyển bước.
+- Câu hỏi cỡ mẫu vẫn chưa có câu trả lời trong tài liệu này. Điểm và quyết định chỉ được cập nhật sau khi hội đồng xác nhận bằng chứng mới.
 
 **Điểm/quyết định sau khi hội đồng xác nhận:** Chưa xác nhận. Nếu đánh giá lại commit mới, ghi commit, thay đổi điểm và lý do riêng; giữ rõ bản đã được review.
 

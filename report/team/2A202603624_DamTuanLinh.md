@@ -36,7 +36,7 @@ Ngoài phần gắn nhãn, tôi quản lý các thông tin chung của nhóm, t�
 - Commit bộ nhãn và khung hồ sơ: `499c9f3` trên nhánh `nv3-nhan`, đã được merge vào `main` qua commit `51862a3`.
 - Commit `f68e315` tổng hợp kết quả A–E và tạo báo cáo cá nhân, đã được merge vào `main` qua commit `49c003d`.
 - Kiểm tra chéo CSV bằng PowerShell: 978 việc thành công; chi phí 4.472 đ/việc và 5.865 đ/yêu cầu cả hệ thống [simulated]; ba chỉ số 994/1.200, 48/177 và 51/1.200.
-- Chưa chạy được `src/lab13.py` trên máy cá nhân do chưa cài Python. Đã review SaoCungDuoc tại `1d25587` (10/30, No-go), sau đó chấm lại tại `b7586bd5efa8bfd449cedf1d32c0b303ca251938` (25/30, Go có điều kiện). Đã đối chiếu lịch 14 ngày, cỡ mẫu và bất nhất đo chi phí; giữ lịch sử và trả lời bằng văn bản, chờ xác nhận/hỏi–đáp trực tiếp.
+- Chưa chạy được `src/lab13.py` trên máy cá nhân do chưa cài Python. Đã review SaoCungDuoc tại `1d25587` (10/30, No-go), sau đó chấm lại tại `b7586bd5efa8bfd449cedf1d32c0b303ca251938` (25/30, Go có điều kiện). Lần 3 tại `d8a77239e3f814aacb9147745be088b614c684d7` đề xuất 30/30, Go có điều kiện, do đã thống nhất công thức/event, mẫu số chi phí, lịch khóa dữ liệu và theo dõi vận hành. Giữ lịch sử và phản hồi bằng văn bản; điểm mới chờ thành viên xác nhận.
 
 ## 5. Công cụ AI đã dùng
 

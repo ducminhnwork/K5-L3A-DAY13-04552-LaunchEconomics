@@ -32,7 +32,7 @@ Nhóm xây dựng hồ sơ launch v0 cho trợ lý hoàn phí LogiX-VN để đ�
 - Hai bộ nhãn đã commit trùng 18/20 ca = 90%, vượt ngưỡng 80%; khác ca 8 và 13. `bang_loi.md` đã có năm ca khắc phục (1, 20, 18, 13, 17), đủ năm loại, mỗi ca có cách phát hiện đo được và một vai trò phụ trách. Bảng đối chiếu và quy tắc đã hoàn tất tại `4519818`: ca 8 thống nhất Hệ thống, ca 13 thống nhất Giới hạn hệ thống.
 - Hồ sơ launch đề xuất **Go có điều kiện** cho pilot: ký chấp nhận đánh đổi cỡ mẫu, bật event đo thời gian thật, giảm xem lại theo bậc, loại hai loại yêu cầu ngoài phạm vi và sửa lỗi hệ thống trước 2026-12-14; quyết định pilot vào 2027-01-15. Mục lỗi đã được cập nhật hoàn tất trong hồ sơ launch.
 - Kết quả duyệt chéo nhận từ hội đồng: **[CHỜ PHIÊN GATE 2a]**.
-- Chấm lại SaoCungDuoc tại commit `b7586bd`: đề xuất **25/30, Go có điều kiện** (lần trước: 10/30, No-go tại `1d25587`). Hồ sơ đã hoàn thiện và bước 0.50 kéo dài 14 ngày; còn cần thống nhất công thức/event cho luật chi phí và mẫu số chi phí cố định. Chi tiết: [`phieu_cham.md`](phieu_cham.md). Điểm chờ nhóm xác nhận, không phải điểm nhóm 04552 nhận được.
+- Chấm lại SaoCungDuoc tại commit `d8a7723`: đề xuất **30/30, Go có điều kiện** (lịch sử: 10/30 tại `1d25587`, 25/30 tại `b7586bd`). Đã thống nhất công thức/event chi phí, mẫu số cố định, lịch khóa dữ liệu và theo dõi vận hành. Chi tiết: [`phieu_cham.md`](phieu_cham.md). Điểm mới chờ nhóm xác nhận, không phải điểm nhóm 04552 nhận được.
 
 
 ## 5. Khó khăn và cách xử lý

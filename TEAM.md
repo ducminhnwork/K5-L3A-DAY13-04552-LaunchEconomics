@@ -36,7 +36,7 @@ Bốn vai của lab:
 | Người 2 | Gắn nhãn độc lập 20 ca lỗi; sau khi cả hai bộ nhãn đã chốt, đối chiếu đồng thuận và hoàn thiện bảng phát hiện, khắc phục | `report/team/nhan_nv2.md`, `report/team/bang_loi.md` |
 | Người 3 | Gắn nhãn độc lập 20 ca lỗi; quản lý thông tin nhóm; tổng hợp báo cáo nhóm; chấm hồ sơ nhóm kế tiếp tại Gate 2a | `report/team/nhan_nv3.md`, `TEAM.md`, `report/team/group_report.md`, `report/team/phieu_cham.md` |
 
-Hai người gắn nhãn làm độc lập và không xem bộ nhãn của nhau trước khi cả hai đã chốt. Đã merge phần A, B, D, E, hai bộ nhãn và bảng khắc phục đủ năm loại. Hai bộ nhãn trùng 18/20 ca (90%), khác ca 8 và 13; bảng đối chiếu, nhãn thống nhất và khắc phục C đã hoàn tất tại commit `4519818`. Phiếu hội đồng đã được chấm lại tại commit `b7586bd`: đề xuất 25/30, Go có điều kiện; giữ lịch sử lần chấm trước và còn chờ thành viên xác nhận/hỏi–đáp trực tiếp.
+Hai người gắn nhãn làm độc lập và không xem bộ nhãn của nhau trước khi cả hai đã chốt. Đã merge phần A, B, D, E, hai bộ nhãn và bảng khắc phục đủ năm loại. Hai bộ nhãn trùng 18/20 ca (90%), khác ca 8 và 13; bảng đối chiếu, nhãn thống nhất và khắc phục C đã hoàn tất tại commit `4519818`. Phiếu hội đồng đã được chấm lại tại commit `d8a7723`: đề xuất 30/30, Go có điều kiện; giữ lịch sử 10/30 và 25/30 cùng phản hồi bằng văn bản, chờ thành viên xác nhận điểm mới.
 
 ### Bằng chứng đóng góp đã có
 

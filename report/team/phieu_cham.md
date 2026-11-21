@@ -3,7 +3,7 @@
 - Nhóm chấm: **04552**, lớp L3A.
 - Nhóm được chấm: **SaoCungDuoc**, lớp L3A.
 - Repo: https://github.com/VictorUIT/K5-L3A-DAY13-SaoCungDuoc-LaunchEconomics
-- Commit chấm lại: `main`, `b7586bd5efa8bfd449cedf1d32c0b303ca251938`.
+- Commit chấm lại: `main`, `d8a77239e3f814aacb9147745be088b614c684d7`.
 - Ngày chấm lại: **21/11/2026 (GMT+7)**.
 - Trạng thái: **Điểm và quyết định đề xuất sau review hồ sơ mới, chờ thành viên hội đồng tự kiểm tra và xác nhận**. Có dùng Codex hỗ trợ đọc và soạn phiếu; không giả lập hỏi–đáp trực tiếp.
 - Phạm vi: đã đọc hồ sơ launch, YAML, bảng chi phí, bảng lỗi, chỉ số và báo cáo nhóm tại commit trên; chưa thực thi code của nhóm được chấm.
@@ -12,29 +12,29 @@
 
 | Tiêu chí | Điểm | Lý do và bằng chứng |
 | --- | ---: | --- |
-| Đề xuất khớp bằng chứng | **10/10** | [Hồ sơ launch](https://github.com/VictorUIT/K5-L3A-DAY13-SaoCungDuoc-LaunchEconomics/blob/b7586bd5efa8bfd449cedf1d32c0b303ca251938/report/team/ho_so_launch_v0.md) đã đủ 7 mục, chọn Go có điều kiện và nêu các số bất lợi: xem lại 100% tốn 11.743–12.415 đ/việc [simulated], power chỉ 0,64 nếu tác động thật 5 điểm, hang_nang mở lại 8,23%. Có điều kiện xử lý, vai trò phụ trách và mốc kiểm tra. Khắc phục lý do 0 điểm ở lần trước. |
-| Số giả lập và phạm vi | **10/10** | [Bảng chi phí](https://github.com/VictorUIT/K5-L3A-DAY13-SaoCungDuoc-LaunchEconomics/blob/b7586bd5efa8bfd449cedf1d32c0b303ca251938/report/team/bang_chi_phi.md), [hồ sơ launch](https://github.com/VictorUIT/K5-L3A-DAY13-SaoCungDuoc-LaunchEconomics/blob/b7586bd5efa8bfd449cedf1d32c0b303ca251938/report/team/ho_so_launch_v0.md) và [chỉ số](https://github.com/VictorUIT/K5-L3A-DAY13-SaoCungDuoc-LaunchEconomics/blob/b7586bd5efa8bfd449cedf1d32c0b303ca251938/report/team/chi_so.md) ghi nhãn simulated cho chi phí tổng hợp. Phạm vi chỉ noi_dia + hang_nang; loại quoc_te vì 1,88× [simulated], thành công 27,3%; loại doi_tac vì thành công 54,4% và chi phí hệ thống 0,92× [simulated]. Phạm vi này đã được đưa vào YAML. |
-| Pilot ra được quyết định | **5/10** | [YAML](https://github.com/VictorUIT/K5-L3A-DAY13-SaoCungDuoc-LaunchEconomics/blob/b7586bd5efa8bfd449cedf1d32c0b303ca251938/report/team/pilot_plan.yaml) đã có 20 + 20 nhân viên, ngẫu nhiên phân tầng theo depot, đối chứng đồng thời, m ≥ 299, n hiệu dụng ≥ 859; bước 0.50 kéo dài 14 ngày và có 4 luật dừng với ngưỡng, thời gian, vai trò. Chưa đề xuất 10 điểm vì cách tính luật chi phí chưa nhất quán giữa YAML và event: YAML cộng 12.000 đ cho mọi ca không thành công, nhưng chi_so.md chỉ cộng theo handoff_to_staff. Cần thống nhất định nghĩa để luật có thể được thực thi và kiểm chứng. Mức 5 ghi nhận thiết kế/cỡ mẫu đã có, còn thiếu độ rõ khi vận hành luật; không phải nhận xét rằng mọi luật đều thiếu ngưỡng. |
-| **Tổng** | **25/30** | Tăng 15 điểm so với lần trước. Không chấm thay 70 điểm đối chiếu của trợ giảng. |
+| Đề xuất khớp bằng chứng | **10/10** | [Hồ sơ launch](https://github.com/VictorUIT/K5-L3A-DAY13-SaoCungDuoc-LaunchEconomics/blob/d8a77239e3f814aacb9147745be088b614c684d7/report/team/ho_so_launch_v0.md) đã đủ 7 mục, chọn Go có điều kiện và nêu các số bất lợi: xem lại 100% tốn 11.743–12.415 đ/việc [simulated], power chỉ 0,64 nếu tác động thật 5 điểm, hang_nang mở lại 8,23%. Có điều kiện xử lý, vai trò phụ trách và mốc kiểm tra. Khắc phục lý do 0 điểm ở lần trước. |
+| Số giả lập và phạm vi | **10/10** | [Bảng chi phí](https://github.com/VictorUIT/K5-L3A-DAY13-SaoCungDuoc-LaunchEconomics/blob/d8a77239e3f814aacb9147745be088b614c684d7/report/team/bang_chi_phi.md), [hồ sơ launch](https://github.com/VictorUIT/K5-L3A-DAY13-SaoCungDuoc-LaunchEconomics/blob/d8a77239e3f814aacb9147745be088b614c684d7/report/team/ho_so_launch_v0.md) và [chỉ số](https://github.com/VictorUIT/K5-L3A-DAY13-SaoCungDuoc-LaunchEconomics/blob/d8a77239e3f814aacb9147745be088b614c684d7/report/team/chi_so.md) ghi nhãn simulated cho chi phí tổng hợp. Phạm vi chỉ noi_dia + hang_nang; loại quoc_te vì 1,88× [simulated], thành công 27,3%; loại doi_tac vì thành công 54,4% và chi phí hệ thống 0,92× [simulated]. Phạm vi này đã được đưa vào YAML. |
+| Pilot ra được quyết định | **10/10** | [YAML](https://github.com/VictorUIT/K5-L3A-DAY13-SaoCungDuoc-LaunchEconomics/blob/d8a77239e3f814aacb9147745be088b614c684d7/report/team/pilot_plan.yaml) có đối chứng đồng thời, ngẫu nhiên phân tầng 20 + 20 nhân viên, m tối thiểu 299, n hiệu dụng tối thiểu 859 và lịch đo 14 ngày. Bốn luật dừng có ngưỡng, thời gian, hành động và vai trò. [chi_so.md](https://github.com/VictorUIT/K5-L3A-DAY13-SaoCungDuoc-LaunchEconomics/blob/d8a77239e3f814aacb9147745be088b614c684d7/report/team/chi_so.md) đã thống nhất công thức C: ca lam_lai chỉ tính phút đo thật; 12.000 đ chỉ cho ca handoff, đếm một lần. Đã quy đổi cố định về 2.172 đ/yêu cầu, bổ sung operational_monitoring và data_lock; đủ căn cứ nâng từ 5 lên 10 điểm theo rubric. |
+| **Tổng** | **30/30** | Tăng 5 điểm so với lần 2; các lý do trừ điểm pilot đã được khắc phục. Không thay phần 70 điểm đối chiếu của trợ giảng. |
 
 ## Quyết định đề xuất
 
 **Go có điều kiện**, chỉ cho pilot noi_dia + hang_nang.
 
-Bản mới đã khắc phục các thiếu sót lớn của lần trước. Các điều kiện trong hồ sơ của nhóm vẫn phải được thực hiện; hội đồng bổ sung các điểm cần làm rõ trước ngày bắt đầu 2026-12-07:
+Bản mới đã xử lý bốn điểm còn vướng của lần chấm 25/30. **30/30 là điểm chất lượng hồ sơ theo rubric, không có nghĩa mọi điều kiện triển khai đã được thực hiện.** Vẫn giữ các điều kiện của nhóm trong [hồ sơ launch](https://github.com/VictorUIT/K5-L3A-DAY13-SaoCungDuoc-LaunchEconomics/blob/d8a77239e3f814aacb9147745be088b614c684d7/report/team/ho_so_launch_v0.md): ký chấp nhận mức chênh 6 điểm, sửa chống hoàn trùng, bật event đo thời gian thật, giảm xem lại an toàn và theo dõi riêng hang_nang.
 
-| Điều kiện | Vai trò đề nghị phụ trách | Hạn kiểm tra đề xuất |
-| --- | --- | --- |
-| Thống nhất công thức chi phí giữa YAML và event: xác định rõ ca chuyển nhân viên, ca làm lại, chi phí đã tính và cách tránh cộng trùng. Viết cách tính đủ tử số, mẫu số và event cho mỗi phần. | PM trợ lý hoàn phí phối hợp Kỹ sư trưởng agent | Trước 2026-12-07 |
-| Quy đổi chi phí cố định và chi phí biến đổi về cùng mẫu số. Không dùng 9.600 đ/yêu cầu cộng trực tiếp với 2.370 đ/việc thành công để kết luận dưới 12.000 đ/yêu cầu. | Giám đốc vận hành phối hợp người kiểm số | Trước 2026-12-07 |
-| Ghi rõ lịch khóa dữ liệu: yêu cầu cuối nhận ngày 03/01/2027, chờ tối đa 24 giờ đóng và 7 ngày theo dõi sau đóng; chỉ quyết định 12/01 nếu đủ mẫu và đủ cửa sổ. Nếu thiếu, lùi ngày quyết định. | Giám đốc vận hành | Chốt trước khi bắt đầu; kiểm tra lại 12/01/2027 |
-| Làm rõ chi phí được theo dõi vận hành hằng tuần, còn hạn chế interim looks áp dụng cho phân tích hiệu quả của chỉ số chính; bảo đảm không bỏ theo dõi chi phí vì dòng “chỉ kiểm tra chỉ số an toàn”. | PM trợ lý hoàn phí | Trước 2026-12-07 |
+| Điểm phản biện lần trước | Bằng chứng khắc phục ở commit mới |
+| --- | --- |
+| Công thức YAML khác event | Hai file cùng định nghĩa C; ca lam_lai chỉ tính phút làm lại; 12.000 đ chỉ cho ca chuyển nhân viên, mỗi request_id một lần; không cộng thêm phút cho ca handoff. |
+| Cố định và biến đổi khác mẫu số | Cùng mẫu số mỗi yêu cầu trong phạm vi: khối lượng một nửa 18.412,5 yêu cầu/tháng; cố định ≈ 2.172 đ/yêu cầu; 9.600 + 2.172 ≈ 11.772 đ, dưới 12.000 đ [simulated]. |
+| Lịch theo dõi chưa rõ | data_lock ghi nhận tới hết 03/01, chờ 24 giờ đóng tới hết 04/01, theo dõi 7 ngày tới hết 11/01, quyết định 12/01; thiếu mẫu thì kéo dài thu nhận và lùi quyết định. |
+| interim_looks dễ gây hiểu nhầm | Có operational_monitoring hằng tuần cho chi phí, mức sử dụng, hoàn trùng; tách khỏi việc kiểm định hiệu quả chỉ số chính. |
 
-Các vai trò và hạn trên là đề nghị của hội đồng, chưa phải cam kết đã được nhóm được chấm xác nhận.
+Điều kiện thực hiện trước 07/12/2026 và các mốc sau đó vẫn cần được người có vai trò trong hồ sơ xác nhận; chưa có dữ liệu pilot thực tế để kết luận hiệu quả.
 
 ## Đối chiếu câu hỏi cỡ mẫu với kế hoạch mới
 
-Câu hỏi đã chuẩn bị trước đây giả định bước 0.50 chỉ một tuần và ngày quyết định 15/01. Hai mốc này không còn khớp bản hiện tại: [YAML](https://github.com/VictorUIT/K5-L3A-DAY13-SaoCungDuoc-LaunchEconomics/blob/b7586bd5efa8bfd449cedf1d32c0b303ca251938/report/team/pilot_plan.yaml) đã ghi bước 0.50 từ **21/12/2026 đến 03/01/2027 (14 ngày)**, quyết định **12/01/2027**.
+Câu hỏi đã chuẩn bị trước đây giả định bước 0.50 chỉ một tuần và ngày quyết định 15/01. Hai mốc này không còn khớp bản hiện tại: [YAML](https://github.com/VictorUIT/K5-L3A-DAY13-SaoCungDuoc-LaunchEconomics/blob/d8a77239e3f814aacb9147745be088b614c684d7/report/team/pilot_plan.yaml) đã ghi bước 0.50 từ **21/12/2026 đến 03/01/2027 (14 ngày)**, quyết định **12/01/2027**.
 
 Tính tay theo các giả định của lab, phân bổ đều giữa nhân viên và hai nhánh:
 
@@ -51,11 +51,20 @@ Nếu yêu cầu cuối nhận hết ngày 03/01, đóng đúng hạn hết ngà
 
 Đây là đối chiếu từ kế hoạch mới, **không phải lời trả lời trực tiếp đã ghi nhận của đội trình**.
 
-## Câu hỏi cần làm rõ sau chấm lại
+## Câu hỏi sau lần chấm 25/30 và phản hồi bằng hồ sơ
 
-**Trong YAML, chi phí hệ thống cộng 12.000 đ cho mọi ca không thành công, nhưng chi_so.md chỉ cộng theo event handoff_to_staff. Các ca lam_lai được ghi nhận và cộng chi phí thế nào để luật 9.600 đ/yêu cầu không bỏ sót hoặc cộng trùng, và ngưỡng này đã quy đổi chi phí cố định về cùng mẫu số chưa?**
+**Câu hỏi:** Trong YAML, chi phí hệ thống cộng 12.000 đ cho mọi ca không thành công, nhưng chi_so.md chỉ cộng theo event handoff_to_staff. Các ca lam_lai được ghi nhận và cộng chi phí thế nào để luật 9.600 đ/yêu cầu không bỏ sót hoặc cộng trùng, và ngưỡng này đã quy đổi chi phí cố định về cùng mẫu số chưa?
 
-**Câu trả lời trực tiếp của đội trình:** Chưa có. Cặp hỏi–đáp bằng văn bản đã nhận trước đây được giữ trong phụ lục bên dưới.
+**Phản hồi bằng văn bản trong repo:** [Báo cáo nhóm, mục 7](https://github.com/VictorUIT/K5-L3A-DAY13-SaoCungDuoc-LaunchEconomics/blob/d8a77239e3f814aacb9147745be088b614c684d7/report/team/group_report.md), [chú thích YAML](https://github.com/VictorUIT/K5-L3A-DAY13-SaoCungDuoc-LaunchEconomics/blob/d8a77239e3f814aacb9147745be088b614c684d7/report/team/pilot_plan.yaml) và [bảng event](https://github.com/VictorUIT/K5-L3A-DAY13-SaoCungDuoc-LaunchEconomics/blob/d8a77239e3f814aacb9147745be088b614c684d7/report/team/chi_so.md) cùng xác định:
+
+- Token/tool tính mọi lần chạy; xem lại và làm lại tính theo phút đo thật; ca lam_lai không cộng thêm 12.000 đ.
+- Chỉ ca chuyển nhân viên cộng 12.000 đ/request_id một lần, không cộng thêm phút xem lại/làm lại cho cùng ca.
+- Mẫu số là số yêu cầu trong phạm vi của nhánh trợ lý theo tuần, mỗi request_id một lần.
+- Trong mẫu có 34 ca chuyển nhân viên và 48 ca lam_lai; C = (3.072.513 + 34 × 12.000) ÷ 982 ≈ 3.544 đ/yêu cầu [simulated]. Khi xem lại 100%, C khoảng 11.178 đ/yêu cầu với 9 phút làm lại/ca [simulated].
+- Cố định quy về 2.172 đ/yêu cầu ở khối lượng một nửa; giải thích cũ 2.370 đ/việc thành công đã được thay.
+- Bảng A/B giữ cách tính theo đề lab; C là định nghĩa vận hành riêng cho luật dừng, đã được nêu tách biệt.
+
+Đây là phản hồi kiểm chứng được từ hồ sơ, không phải bản ghi nguyên văn lời nói tại buổi. Các đánh dấu xác nhận/trao đổi trực tiếp do thành viên chỉnh trong phiếu trước lượt chấm này được giữ nguyên; điểm 30/30 là đề xuất mới cần thành viên xác nhận riêng.
 
 ## Các điểm đã cải thiện và điểm còn chờ
 
@@ -63,8 +72,8 @@ Nếu yêu cầu cuối nhận hết ngày 03/01, đóng đúng hạn hết ngà
 - C: có hai bộ nhãn, đồng thuận 18/20 = 90%, quy tắc cho ca 13/17 và đủ 5 loại khắc phục.
 - D: có D1/D2, số cụm và cỡ mẫu; 4 luật dừng; đã kéo dài bước 0.50, chỉ áp luật chi phí từ bước này.
 - E: có 3 chỉ số tính thử, thêm chỉ số dùng/an toàn, bảng event gồm 11 dòng (một dòng gộp đóng/mở lại), 5 rủi ro và hồ sơ 7 mục.
-- Rủi ro đo lường còn lại: cộng chi phí theo “mọi ca không thành công” khác với chỉ theo handoff_to_staff. Nếu 48 ca lam_lai trong phạm vi không phát event chuyển nhân viên, hai cách có thể lệch 48 × 12.000 ÷ 982 ≈ 587 đ/yêu cầu [simulated]. Đây là minh họa cần xác nhận bằng định nghĩa event.
-- Bản mới vẫn giải thích ngưỡng 9.600 đ/yêu cầu bằng việc chừa 2.370 đ/việc thành công. Cần quy đổi; vấn đề này không làm mất ghi nhận nhãn simulated và lý do thu hẹp phạm vi.
+- Đã đối chiếu số chính bằng phép tính từ CSV trong workspace: 982 yêu cầu trong phạm vi, 34 ca handoff, 48 ca làm lại; cố định 2.172,44 đ/yêu cầu và C khoảng 3.544,31 đ/yêu cầu [simulated]. Chưa chạy code repo SaoCungDuoc.
+- Không giữ điểm trừ cũ sau khi đã có bằng chứng khắc phục. Cần tiếp tục đo thời gian thật và kiểm tra phân bổ mẫu khi pilot bắt đầu.
 
 ## Lịch sử chấm
 
@@ -72,8 +81,9 @@ Nếu yêu cầu cuối nhận hết ngày 03/01, đóng đúng hạn hết ngà
 | --- | --- | --- | ---: | --- | --- |
 | 1 | `1d2558706cab2beb77f0f2908d18251500a84f9b` | 0 + 10 + 0 | 10/30 | No-go | Hồ sơ launch và kế hoạch pilot còn mẫu. |
 | 2 | `b7586bd5efa8bfd449cedf1d32c0b303ca251938` | 10 + 10 + 5 | 25/30 | Go có điều kiện | Đã có hồ sơ, thiết kế, lịch và luật dừng; cần thống nhất cách đo chi phí. |
+| 3 | `d8a77239e3f814aacb9147745be088b614c684d7` | 10 + 10 + 10 | 30/30 | Go có điều kiện | Đã thống nhất công thức/event, cùng mẫu số chi phí, lịch khóa dữ liệu và theo dõi vận hành. |
 
-Chưa có điểm hoặc quyết định đã được hội đồng xác nhận; bảng trên ghi đề xuất review theo từng commit.
+Bảng ghi kết quả đề xuất review theo từng commit. Các đánh dấu xác nhận của thành viên từ trước được bảo toàn; điểm 30/30 ở lần 3 chưa được xem là đã được thành viên xác nhận.
 
 ## Phụ lục giữ nguyên trao đổi đã ghi nhận ở lần trước
 
@@ -131,6 +141,7 @@ Nhóm sẽ cập nhật `pilot_plan.yaml` (luật chi phí "TRONG 2 tuần liên
 - Ngưỡng 9.600 đ được mô tả theo **mỗi yêu cầu**, còn chi phí cố định 2.370 đ theo **mỗi việc thành công**; không cộng hai đại lượng này trước khi quy đổi về cùng mẫu số.
 - Việc miễn áp luật chi phí ở hai bước đầu và thay ngày bắt đầu là phương án nhóm nêu trong tài liệu, chưa phải điều kiện đã được hội đồng chấp thuận. Cần đối chiếu YAML, hồ sơ launch và commit cập nhật; xác định ngân sách giai đoạn học, người chịu trách nhiệm và tiêu chí chuyển bước.
 
+
 ## Checklist chấm lại
 
 - [x] Đã đọc lại hồ sơ tại commit mới và đối chiếu rubric 0/5/10.
@@ -139,3 +150,4 @@ Nhóm sẽ cập nhật `pilot_plan.yaml` (luật chi phí "TRONG 2 tuần liên
 - [x] Đã giữ riêng lịch sử chấm và lời trả lời bằng văn bản.
 - [x] Thành viên hội đồng tự kiểm tra và xác nhận điểm/quyết định.
 - [x] Đã hỏi trực tiếp và ghi câu trả lời cho các điểm còn vướng.
+- [ ] Thành viên xác nhận riêng điểm đề xuất 30/30 của lần chấm tại `d8a7723`.

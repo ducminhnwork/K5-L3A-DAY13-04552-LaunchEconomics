@@ -4,47 +4,46 @@
 
 ## Hai bộ nhãn độc lập
 
-Người gắn nhãn 1: ... · Người gắn nhãn 2: Bùi Xuân Thành (2A202603521) (gắn trong 8 phút, không trao đổi)
+Bộ nhãn A: Bùi Xuân Thành (2A202603521), file `nhan_nv2.md`, gắn 15:01–15:09. Bộ nhãn B: Đàm Tuấn Linh (2A202603624), file `nhan_nv3.md`, chốt 15:00. Hai người gắn riêng, không trao đổi, commit trước khi so.
 
-| Ca | Nhãn người 1 | Nhãn người 2 | Trùng? | Nhãn thống nhất |
-| --: | --- | --- | --- | --- |
-| 1 | ... | ... | ... | ... |
-| 2 | ... | ... | ... | ... |
-| 3 | ... | ... | ... | ... |
-| 4 | ... | ... | ... | ... |
-| 5 | ... | ... | ... | ... |
-| 6 | ... | ... | ... | ... |
-| 7 | ... | ... | ... | ... |
-| 8 | ... | ... | ... | ... |
-| 9 | ... | ... | ... | ... |
-| 10 | ... | ... | ... | ... |
-| 11 | ... | ... | ... | ... |
-| 12 | ... | ... | ... | ... |
-| 13 | ... | ... | ... | ... |
-| 14 | ... | ... | ... | ... |
-| 15 | ... | ... | ... | ... |
-| 16 | ... | ... | ... | ... |
-| 17 | ... | ... | ... | ... |
-| 18 | ... | ... | ... | ... |
-| 19 | ... | ... | ... | ... |
-| 20 | ... | ... | ... | ... |
+| Ca | Nhãn A (Thành) | Nhãn B (Linh) | Trùng? | Nhãn thống nhất |
+| --: | --- | --- | :-: | --- |
+| 1 | Do người dùng | Do người dùng | Có | Do người dùng |
+| 2 | Hệ thống | Hệ thống | Có | Hệ thống |
+| 3 | Ngữ cảnh | Ngữ cảnh | Có | Ngữ cảnh |
+| 4 | Giới hạn hệ thống | Giới hạn hệ thống | Có | Giới hạn hệ thống |
+| 5 | Ngầm | Ngầm | Có | Ngầm |
+| 6 | Do người dùng | Do người dùng | Có | Do người dùng |
+| 7 | Hệ thống | Hệ thống | Có | Hệ thống |
+| 8 | Hệ thống | Ngầm | **Không** | Hệ thống |
+| 9 | Do người dùng | Do người dùng | Có | Do người dùng |
+| 10 | Ngữ cảnh | Ngữ cảnh | Có | Ngữ cảnh |
+| 11 | Giới hạn hệ thống | Giới hạn hệ thống | Có | Giới hạn hệ thống |
+| 12 | Ngầm | Ngầm | Có | Ngầm |
+| 13 | Giới hạn hệ thống | Hệ thống | **Không** | Giới hạn hệ thống |
+| 14 | Do người dùng | Do người dùng | Có | Do người dùng |
+| 15 | Hệ thống | Hệ thống | Có | Hệ thống |
+| 16 | Ngữ cảnh | Ngữ cảnh | Có | Ngữ cảnh |
+| 17 | Ngầm | Ngầm | Có | Ngầm |
+| 18 | Ngữ cảnh | Ngữ cảnh | Có | Ngữ cảnh |
+| 19 | Giới hạn hệ thống | Giới hạn hệ thống | Có | Giới hạn hệ thống |
+| 20 | Hệ thống | Hệ thống | Có | Hệ thống |
 
-**Tỉ lệ đồng thuận:** ... / 20 = ...%
+**Tỉ lệ đồng thuận:** 18 / 20 = 90% (đạt mức tối thiểu 80%, tức 16/20). Hai ca lệch: 8 và 13. Không cần viết lại định nghĩa.
 
 ## Quy tắc phân biệt cho các ca không trùng
 
-Mỗi ca không trùng một câu. Đồng thuận dưới 80% thì ghi định nghĩa đã viết lại.
-
-- ...
+- **Ca 8 là Hệ thống, không phải Ngầm:** trợ lý dẫn điều khoản không tồn tại là sai so với thiết kế, và sai đó hiện ra trong tin nhắn nên nhân viên hoặc khách đọc là thấy; Ngầm chỉ dùng khi không ai nhận ra cho tới khi kiểm tra mẫu. Số tiền đúng chỉ làm lỗi nhẹ đi, không làm nó thành lỗi ngầm.
+- **Ca 13 là Giới hạn hệ thống, không phải Hệ thống:** câu hỏi hoàn phí bảo hiểm nằm ngoài phạm vi của trợ lý, nên gốc lỗi là giới hạn phạm vi, kể cả khi trợ lý xử lý giới hạn đó kém (trả lời chung chung); cách xử lý kém nằm ở cột khắc phục.
 
 ## Bảng khắc phục cho 5 ca, mỗi loại một ca
 
-Cách phát hiện phải đo được (event, ngưỡng, tần suất). Người phụ trách là một vai trò, không ghi "cả đội".
+Cách phát hiện dùng các event trong `chi_so.md` (có `trace_id`). Người phụ trách là một vai trò.
 
 | Ca | Loại lỗi | Phát hiện bằng gì | Khắc phục thế nào | Ai phụ trách |
 | --: | --- | --- | --- | --- |
-| 1 | Do người dùng | Event `hoan_tien_ngan_hang_loi` (kèm `trace_id`, mã lỗi ngân hàng "sai số tài khoản"); theo dõi hằng ngày, cảnh báo khi > 1% lệnh hoàn trong ngày | Kiểm tra định dạng số tài khoản (độ dài, checksum theo ngân hàng) ngay lúc nhập và bắt khách xác nhận lại tên chủ tài khoản trước khi tạo lệnh hoàn | Product owner trợ lý hoàn phí |
-| 20 | Hệ thống | Đối soát hằng giờ: đếm `request_id` có ≥ 2 event `hoan_tien_da_ghi`; ngưỡng > 0 ca là cảnh báo ngay | Thêm khoá chống trùng (idempotency key = mã vận đơn + loại hoàn) ở bước ghi sổ cái; lệnh thứ hai trả về kết quả của lệnh đầu thay vì hoàn lần nữa | Trưởng nhóm kỹ thuật tích hợp |
-| 18 | Ngữ cảnh | Tỉ lệ `mo_lai_trong_7_ngay` của các yêu cầu hoàn một phần, đo theo tuần; cảnh báo khi cao hơn nhóm hoàn đủ 5 điểm % trở lên | Tin nhắn hoàn tiền luôn kèm cách tính: phí gốc, điều khoản áp dụng, tỉ lệ hoàn, số tiền (vd "30.000 đ × 50% theo mục trễ 24–48 giờ = 15.000 đ") | Trưởng nhóm CSKH |
-| 13 | Giới hạn hệ thống | Event `ngoai_pham_vi` (có `trace_id`) do bộ phân loại ý định gắn; mỗi tuần lấy mẫu 50 hội thoại có từ khoá "bảo hiểm" mà không có event này, ngưỡng > 5% bị bỏ sót là phải sửa | Khi phát hiện yêu cầu ngoài phạm vi: nói rõ "trợ lý không xử lý phí bảo hiểm", đưa đầu mối công ty bảo hiểm đối tác và chuyển nhân viên kèm tóm tắt | Product owner trợ lý hoàn phí |
-| 17 | Ngầm | Đối soát hằng ngày số tiền hoàn của trợ lý với bảng giá hiện hành, lấy mẫu ngẫu nhiên 2% đơn; cảnh báo khi > 0,5% đơn lệch; thêm event `bang_gia_version` ghi phiên bản bảng giá dùng cho mỗi lần tính | Xoá bộ nhớ đệm bảng giá mỗi khi có bản mới (theo ngày hiệu lực), chặn tính hoàn nếu phiên bản bảng giá cũ hơn bản hiện hành; tính lại và bù 212 đơn đã lệch | Kế toán trưởng phụ trách đối soát |
+| 1 | Do người dùng | Event `refund_ledger_write` có `ket_qua` = loi_so_tai_khoan; cảnh báo khi vượt 2% số yêu cầu trong một ngày | Kiểm tra độ dài số tài khoản ngay lúc nhập và hiện cảnh báo trước khi gửi; số sai thì yêu cầu khách nhập lại | PM trợ lý hoàn phí |
+| 20 | Hệ thống | Đối soát mỗi giờ: một `request_id` có hơn một bản ghi `refund_ledger_write` với `ket_qua` = ok; ngưỡng 0 ca | Tạo `idempotency_key` từ `request_id` và số tiền; sổ cái từ chối khoá đã dùng, trả lại kết quả cũ | Kỹ sư trưởng agent |
+| 18 | Ngữ cảnh | Tuần nào cũng đếm `ticket_reopened` có lý do về số tiền mà `audit_sample_checked` cho thấy `so_tien_da_hoan` = `so_tien_dung`; cảnh báo khi vượt 1% số yêu cầu mỗi tuần | Mẫu tin nhắn luôn ghi cách tính, ví dụ 30.000 đ × 50% = 15.000 đ | Trưởng nhóm CSKH |
+| 13 | Giới hạn hệ thống | Event `handoff_to_staff` có `reason` = ngoai_pham_vi, theo tuần; mỗi tuần rà 20 trace ngoài phạm vi, ngưỡng 0 trace trả lời chung chung mà không nói rõ không xử lý | Nhận diện yêu cầu ngoài phạm vi (bảo hiểm), nói rõ trợ lý không xử lý và chuyển nhân viên kèm tóm tắt | PM trợ lý hoàn phí |
+| 17 | Ngầm | Event `audit_sample_checked`: kiểm tra mẫu 100 đơn mỗi tuần so với bảng giá hiện hành; ngưỡng 1% đơn lệch | Xoá bộ nhớ đệm khi có bảng giá mới và ghi phiên bản bảng giá vào trace | Kế toán trưởng |

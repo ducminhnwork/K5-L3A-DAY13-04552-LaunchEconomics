@@ -35,13 +35,13 @@ Bốn vai của lab:
 | Người 2 | Gắn nhãn độc lập 20 ca lỗi; sau khi cả hai bộ nhãn đã chốt, đối chiếu đồng thuận và hoàn thiện bảng phát hiện, khắc phục | `report/team/nhan_nv2.md`, `report/team/bang_loi.md` |
 | Người 3 | Gắn nhãn độc lập 20 ca lỗi; quản lý thông tin nhóm; tổng hợp báo cáo nhóm; chấm hồ sơ nhóm kế tiếp tại Gate 2a | `report/team/nhan_nv3.md`, `TEAM.md`, `report/team/group_report.md`, `report/team/phieu_cham.md` |
 
-Hai người gắn nhãn làm độc lập và không xem bộ nhãn của nhau trước khi cả hai đã chốt. Đã merge phần A, B, D, E và hai bộ nhãn; bảng thống nhất và khắc phục C còn chờ Người 2, phiếu hội đồng còn chờ hồ sơ nhóm được chấm.
+Hai người gắn nhãn làm độc lập và không xem bộ nhãn của nhau trước khi cả hai đã chốt. Đã merge phần A, B, D, E, hai bộ nhãn và bảng khắc phục đủ năm loại. Hai bộ nhãn trùng 18/20 ca (90%), khác ca 8 và 13; bảng đối chiếu và nhãn thống nhất vẫn chờ Người 2 hoàn thiện. Phiếu hội đồng còn chờ hồ sơ nhóm được chấm và phiên hỏi–đáp thực tế.
 
 ### Bằng chứng đóng góp đã có
 
 - Nguyễn Đức Minh: commit `04cec8a` hoàn thiện A, B, D, E; báo cáo cá nhân `report/team/2A202603563_NguyenDucMinh.md`.
-- Bùi Xuân Thành: commit `0ea93ce` ghi bộ nhãn độc lập; báo cáo cá nhân `report/team/2A202603521_BuiXuanThanh.md` hiện vẫn là mẫu, cần thành viên tự hoàn thiện.
-- Đàm Tuấn Linh: commit `499c9f3` ghi bộ nhãn độc lập và khung hồ sơ; merge vào main tại `51862a3`; báo cáo cá nhân `report/team/2A202603624_DamTuanLinh.md`.
+- Bùi Xuân Thành: commit `0ea93ce` ghi bộ nhãn độc lập; nhánh `nv2-nhan` đến commit `52454ea` đã có bảng khắc phục năm ca và báo cáo cá nhân `report/team/2A202603521_BuiXuanThanh.md`, merge tại `6b8b5d1`.
+- Đàm Tuấn Linh: commit `499c9f3` ghi bộ nhãn độc lập và khung hồ sơ; commit `f68e315` tổng hợp kết quả A–E, đối chiếu số chính từ CSV và tạo báo cáo cá nhân `report/team/2A202603624_DamTuanLinh.md`; đã merge tại `51862a3` và `49c003d`.
 
 ## Cá nhân
 

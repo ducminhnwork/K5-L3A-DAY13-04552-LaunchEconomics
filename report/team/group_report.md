@@ -29,7 +29,7 @@ Nhóm xây dựng hồ sơ launch v0 cho trợ lý hoàn phí LogiX-VN để đ�
 - Ba yếu tố nhạy nhất: làm lại gấp đôi tăng 51,8%; xem lại gấp đôi tăng 40,7%; lương tăng 25% làm chi phí tăng 23,1% [simulated]. Xem lại 100% tốn 11.743–12.415 đ/việc, bằng 0,98–1,03 lần nhân viên tự làm [simulated].
 - Pilot chỉ gồm `noi_dia` và `hang_nang`, chia 20 nhân viên trợ lý và 20 đối chứng. Chọn mức chênh 6 điểm, cần 859 yêu cầu hiệu dụng/nhóm và ít nhất 299 yêu cầu/người (DE 6,96); nếu tác động thật chỉ 5 điểm thì power khoảng 0,64.
 - Chỉ số trong đợt chạy thử: chính 82,83% (994/1.200); bỏ qua gợi ý 27,12% (48/177); mở lại 7 ngày 4,25% (51/1.200). Đây là số quan sát, chưa chứng minh mức cải thiện do trợ lý.
-- Hai bộ nhãn đã commit trùng 18/20 ca = 90%; khác ca 8 và 13. Đây là mức trùng ban đầu; Người 2 còn phải ghi quy tắc phân biệt, nhãn thống nhất và bảng khắc phục vào `bang_loi.md`.
+- Hai bộ nhãn đã commit trùng 18/20 ca = 90%, vượt ngưỡng 80%; khác ca 8 và 13. `bang_loi.md` đã có năm ca khắc phục (1, 20, 18, 13, 17), đủ năm loại, mỗi ca có cách phát hiện đo được và một vai trò phụ trách. Người 2 còn phải điền bảng đối chiếu, tỷ lệ đồng thuận và quy tắc thống nhất hai ca bất đồng.
 - Hồ sơ launch đề xuất **Go có điều kiện** cho pilot: ký chấp nhận đánh đổi cỡ mẫu, bật event đo thời gian thật, giảm xem lại theo bậc, loại hai loại yêu cầu ngoài phạm vi và sửa lỗi hệ thống trước 2026-12-14; quyết định pilot vào 2027-01-15. Mục lỗi hiện còn trạng thái chưa hoàn tất.
 - Kết quả duyệt chéo nhận từ hội đồng: **[CHỜ PHIÊN GATE 2a]**.
 
@@ -43,7 +43,7 @@ Nhóm xây dựng hồ sơ launch v0 cho trợ lý hoàn phí LogiX-VN để đ�
 
 ## 6. Tổng hợp đóng góp
 
-Phân công, đóng góp thực tế và bằng chứng file/commit của từng thành viên được ghi trong [`TEAM.md`](../../TEAM.md) và báo cáo cá nhân tương ứng.
+Nguyễn Đức Minh phụ trách A, B, D, E; Bùi Xuân Thành phụ trách bộ nhãn độc lập và bảng khắc phục C; Đàm Tuấn Linh phụ trách bộ nhãn còn lại, thông tin nhóm, báo cáo nhóm và phiếu hội đồng. Chi tiết file/commit: [`TEAM.md`](../../TEAM.md) và ba báo cáo cá nhân tương ứng.
 
 ## 7. Hạn chế và hướng cải thiện
 

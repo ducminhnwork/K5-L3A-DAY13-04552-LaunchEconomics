@@ -22,6 +22,8 @@ Ngoài phần gắn nhãn, tôi quản lý các thông tin chung của nhóm, t�
 - Cập nhật thông tin nhóm, vai trò và phân công trong [`TEAM.md`](../../TEAM.md).
 - Tổng hợp mục tiêu, cách tiếp cận, giải pháp, hạn chế và đóng góp thành viên trong [`group_report.md`](group_report.md).
 - Chuẩn bị khung phiếu chấm chéo Gate 2a trong [`phieu_cham.md`](phieu_cham.md), gồm tiêu chí bằng chứng, phạm vi pilot, luật dừng và phần quyết định của hội đồng.
+- Đối chiếu hai bộ nhãn đã commit: trùng 18/20 ca = 90%, khác ca 8 và 13; giữ nguyên bộ nhãn độc lập và chuyển phần thống nhất cho Người 2.
+- Cập nhật báo cáo khi Người 2 bổ sung bảng khắc phục đủ năm loại; phân biệt rõ phần đã có bằng chứng và phần còn chờ đối chiếu hoặc hỏi–đáp.
 - Phối hợp kiểm tra tính nhất quán giữa báo cáo nhóm, các bảng nhiệm vụ và hồ sơ launch; các số liệu lấy từ dữ liệu mô phỏng được giữ nguyên nhãn `simulated` theo quy định.
 
 ## 4. Bằng chứng
@@ -32,6 +34,7 @@ Ngoài phần gắn nhãn, tôi quản lý các thông tin chung của nhóm, t�
 - Phiếu chấm hội đồng Gate 2a: [`report/team/phieu_cham.md`](phieu_cham.md).
 - Các tài liệu nhóm được tham chiếu khi tổng hợp: [`bang_loi.md`](bang_loi.md), [`chi_so.md`](chi_so.md), [`ho_so_launch_v0.md`](ho_so_launch_v0.md) và [`pilot_plan.yaml`](pilot_plan.yaml).
 - Commit bộ nhãn và khung hồ sơ: `499c9f3` trên nhánh `nv3-nhan`, đã được merge vào `main` qua commit `51862a3`.
+- Commit `f68e315` tổng hợp kết quả A–E và tạo báo cáo cá nhân, đã được merge vào `main` qua commit `49c003d`.
 - Kiểm tra chéo CSV bằng PowerShell: 978 việc thành công; chi phí 4.472 đ/việc và 5.865 đ/yêu cầu cả hệ thống [simulated]; ba chỉ số 994/1.200, 48/177 và 51/1.200.
 - Chưa chạy được `src/lab13.py` trên máy cá nhân do chưa cài Python; chưa hoàn tất phiếu chấm vì chưa nhận hồ sơ nhóm được chấm.
 
@@ -41,4 +44,4 @@ Tôi dùng ChatGPT/Codex để hỗ trợ rà soát cấu trúc báo cáo, đố
 
 ## 6. Tự đánh giá
 
-Tôi đã hoàn thành bộ nhãn độc lập và phần tổng hợp có đủ bằng chứng; phiếu hội đồng mới ở bước chuẩn bị. Điểm mạnh là giữ được quy trình độc lập trước đối chiếu, ghi rõ lý do theo nguyên nhân gốc và tổng hợp được các yêu cầu chính của hồ sơ launch. Phần còn chờ là kết quả thống nhất nhãn và bảng khắc phục do Người 2 phụ trách, hồ sơ của nhóm được chấm và phản hồi từ hội đồng. Tôi sẽ cập nhật các kết quả này khi nhận được bằng chứng thực tế.
+Tôi đã hoàn thành bộ nhãn độc lập, thông tin thành viên và phần tổng hợp kết quả có đủ bằng chứng; phiếu hội đồng mới ở bước chuẩn bị. Điểm mạnh là giữ nguyên bộ nhãn trước đối chiếu, ghi rõ lý do theo nguyên nhân gốc và tổng hợp được các yêu cầu chính của hồ sơ launch. Bảng khắc phục của Người 2 đã có đủ năm loại. Phần còn chờ là bảng đối chiếu và kết quả thống nhất ca 8/13 do Người 2 phụ trách, hồ sơ nhóm được chấm và phản hồi hội đồng. Tôi sẽ cập nhật khi có bằng chứng thực tế.
